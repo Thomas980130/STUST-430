@@ -3,6 +3,7 @@
 <h3 class="b">Hello Oxxo!!</h3>
 <h3 class="c">Hello Oxxo!!</h3>
 <h3 class="d">Hello Oxxo!!</h3>
+<a href="index.html" class="home-button">回首頁</a>
 
 <!-- CSS 程式碼 -->
 <style>
@@ -14,4 +15,21 @@
   .b {text-decoration: underline wavy green 5px;}
   .c {text-decoration: line-through double #ff550088 5px;}
   .d {text-decoration: line-through wavy #00009988 50%;}
+  .home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #003cff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: bold;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.home-button:hover {
+  background-color: #0044ff;
+  transform: scale(1.05);
+}
+
 </style>

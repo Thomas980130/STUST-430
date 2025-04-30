@@ -2,6 +2,7 @@
 <h3 class="a">Hello OXXO!! </h3>
 <h3 class="b">Hello OXXO!! </h3>
 <h3 class="c">Hello OXXO!!</h3>
+<a href="index.html" class="home-button">回首頁</a>
 
 <!-- CSS 程式碼 -->
 <style>
@@ -12,4 +13,21 @@
   .a {text-shadow: red -1em 5px 10px;}
   .b {text-shadow: green -0.5em 0.3em 0.2em;}
   .c {text-shadow: #00000066 2px 2px 2px;}
+  .home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00ffb3;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: bold;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.home-button:hover {
+  background-color: #00ffc8;
+  transform: scale(1.05);
+}
+
 </style>
