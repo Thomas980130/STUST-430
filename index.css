@@ -1,0 +1,98 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf2f8;
+  }
+  
+  .main-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* 左側圖片區 */
+  .left-panel {
+    background-color: #00b0f0;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    color: #000;
+  }
+  
+  .left-panel h2 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  
+  .left-panel img {
+    width: 100%;
+    max-width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  
+  /* 右側文字區 */
+  .right-panel {
+    flex: 2;
+    padding: 30px;
+    background-color: #fdf6e3;
+  }
+  
+  /* 區塊樣式 */
+  .section {
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .section.yellow {
+    background-color: #ffc966;
+  }
+  
+  .section.blue {
+    background-color: #d9f2ff;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .title.pink {
+    background-color: #ffb6c1;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 6px;
+  }
+  
+  .section ol, .section p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.7;
+  }
+  .intro-text {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 18px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #111;
+    line-height: 1.6;
+    text-align: left;
+  }
+  .title1 {text-decoration: underline rgb(163, 113, 113) 10px;}
+  .cactus-classical-serif-regular {
+    font-family: "Cactus Classical Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  
